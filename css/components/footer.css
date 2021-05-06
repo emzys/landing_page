@@ -1,0 +1,23 @@
+.footer {
+  background-image: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.2)), url(../../images/bgi.jpg);
+  height: 40vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  color: #fff6f6;
+  text-shadow: 1px 1px 3px rgba(0,0,0, 20%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer i {
+  font-size: 56px;
+  color: #fff6f6;
+  padding: 15px;
+  transition: color .3s,
+}
+
+.footer i:hover {
+  color: #d6b2b8;
+}

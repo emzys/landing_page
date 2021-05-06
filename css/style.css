@@ -1,0 +1,43 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&family=Montserrat:wght@400;700&display=swap');
+
+/* Fontawesome */
+@import url('https://use.fontawesome.com/releases/v5.6.3/css/all.css');
+
+/* Components */
+@import url("components/banner.css");
+@import url("components/container.css");
+@import url("components/button.css");
+@import url("components/card.css");
+@import url("components/footer.css");
+
+/* Utilities */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0;
+  font-family: Open Sans;
+  font-family: 'Montserrat', sans-serif;
+  color: rgb(48, 48, 48);
+	background-color: #fff0f0;
+}
+
+h1 {
+  font-family: 'Dancing Script', cursive;
+}
+
+h2 {
+  margin: 30px;
+  font-size: 28px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.text-center {
+  text-align: center;
+}
